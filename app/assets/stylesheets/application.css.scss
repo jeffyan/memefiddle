@@ -1,0 +1,68 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+.navbar-header {
+	margin-right: 50px;
+}
+
+main {
+	margin-top: 70px;
+}
+
+.kineticjs-content {
+	border: 2px dashed black;
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+.nav a {
+	cursor: pointer;
+}
+
+.modal2 {
+	background-clip: padding-box;
+	background-color: #FFFFFF;
+	left: 0;
+	right: 0;
+	top: 25%;
+	position: fixed;
+	width: 560px;
+	margin: 0 auto;
+}
+
+.modal-body .alert {
+	margin-top: 10px;
+}
+
+#canvas {
+	background-color: white
+}
+
+/* left nav commands */
+.glyphicon span {
+	margin-left: 10px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/* Browse Section */
+.list-inline li {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+/* Modal */
+.modal-body label {
+	margin: 10px 0px;
+}
+
+@import "twitter/bootstrap";

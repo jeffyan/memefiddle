@@ -1,0 +1,6 @@
+<div ng-show="memes.length == 0">Can't find any Memes, go make one!</div>
+<ul class="list-unstyled list-inline">
+	<li ng-repeat="meme in memes">
+		<a ng-href="/#/p/{{meme.uniquecode}}"><img class="img-thumbnail" ng-src="/preview/{{meme.uniquecode}}.png"/></a>
+	</li>
+</ul>

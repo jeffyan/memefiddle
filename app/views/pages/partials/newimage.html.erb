@@ -1,0 +1,25 @@
+<div>
+    <div class="col-md-2">
+    	<div class="sidebar-nav">
+            <ul class="nav">
+                <li><a ng-click="saveFiddle()" class="glyphicon glyphicon-floppy-disk"><span>Save</span></a></li>
+             	<li><a ng-click="addImage()" class="glyphicon glyphicon-picture"><span>Add Image</span></a></li>
+                <li><a ng-click="addText()" class="glyphicon glyphicon-text-width"><span>Add Text</span></a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle glyphicon glyphicon-fullscreen" data-toggle="dropdown"><span>Canvas Size</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a ng-click="changeCanvas(600, 500)">600 x 500</a></li>
+                        <li><a ng-click="changeCanvas(1024, 768)">1024 x 768</a></li>
+                        <li><a ng-click="changeCanvasCustom()">Custom</a></li>
+                    </ul>
+                </li>
+                <li></li>
+            </ul>
+    	</div>
+    </div>
+       
+    <div class="col-md-10 content">
+		<kineticcanvas id="canvas"></kineticcanvas>            	
+    </div>
+
+</div>
